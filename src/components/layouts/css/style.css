@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+  margin-top: 10px;
+  margin-right: 10px;
+
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.icon_switch {
+  text-align: right;
+}
+
+/* Card view */
+.cards_vew {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  margin: 15px;
+
+  background-color: #F4F4F4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5)
+}
+
+.name {
+  margin-top: 15px;
+}
+
+.color {
+  margin: 10px;
+
+  font-size: 12px;
+}
+
+.img_container {
+  height: 150px;
+}
+
+.img {
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.add {
+  color: red;
+  border-radius: 15px;
+  border: solid 1px red;
+  
+  cursor: pointer;
+}
+
+/* List view */
+.item {
+  margin: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #F4F4F4;
+  box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.img_container_item {
+  height: 80px;
+  margin-left: 10px;
+}
+
+.add_item {
+  margin-top: 30px;
+  margin-right: 10px;
+
+  color: red;
+  border-radius: 15px;
+  border: solid 1px red;
+  
+  cursor: pointer;
+}
+
+.name_item, .color_item, .price_item {
+  margin-top: 30px;
+}
